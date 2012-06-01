@@ -3,6 +3,9 @@ logitech_unifier
 
 A program to pair devices to a Logitech Unifying Receiver on Linux.
 
+Logitech only provides a Windows program to do this, so if you're running Linux, you either need to pair your 
+devices on a windows box or use the unify.c script. 
+
 How To
 ----------------
 
