@@ -17,7 +17,7 @@ How To
 
 To find it, run the following for every hidrawX on your system until you find `HID_NAME=Logitech USB Receiver`:
 
-    cat /sys/class/hidraw/hidraw0
+    cat /sys/class/hidraw/hidraw0/device/uevent
     
 If hidraw0 isn't it, try hidraw1 and so on.
 
