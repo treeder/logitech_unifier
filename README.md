@@ -21,7 +21,9 @@ To find it, run the following for every hidrawX on your system until you find `H
     
 If hidraw0 isn't it, try hidraw1 and so on.
 
-3\. Turn on your device like the tool will say.
+3\. sudo ./unify /dev/hidrawX
+
+4\. Turn on your device like the tool will say.
 
 That's it!  Device should work now. 
 
