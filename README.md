@@ -1,4 +1,4 @@
-logitech_unifier
+Logitech Unifier
 ================
 
 A program to pair devices to a Logitech Unifying Receiver on Linux.
