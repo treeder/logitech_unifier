@@ -2,6 +2,7 @@
 *.slo
 *.lo
 *.o
+unify
 
 # Compiled Dynamic libraries
 *.so
