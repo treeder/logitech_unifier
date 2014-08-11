@@ -10,7 +10,7 @@ device_name="Logitech Unified Reciever"
 unify_binary="unify"
 
 if [[ ! -s ${unify_binary} ]]; then
-   echo "${device_name} ${unify_binary} binary not compiled, attemping compilation"
+   echo "${device_name} ${unify_binary} binary not compiled, attempting compilation"
    if gcc -o ${unify_binary} ${unify_binary}.c ;then
       echo "${device_name} ${unify_binary} binary was successfully compiled"
    else
