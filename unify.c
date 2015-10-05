@@ -26,6 +26,7 @@
 #define USB_VENDOR_ID_LOGITECH                        (__u32)0x046d 
 #define USB_DEVICE_ID_UNIFYING_RECEIVER                (__s16)0xc52b 
 #define USB_DEVICE_ID_NANO_RECEIVER                (__s16)0xc52f 
+#define USB_DEVICE_ID_NANO_RECEIVER_ALT                (__s16)0xc534 
 #define USB_DEVICE_ID_UNIFYING_RECEIVER_2        (__s16)0xc532 
 
 int main(int argc, char **argv) 
@@ -58,6 +59,7 @@ int main(int argc, char **argv)
                     info.vendor != USB_VENDOR_ID_LOGITECH || 
                     (info.product != USB_DEVICE_ID_UNIFYING_RECEIVER && 
                      info.product != USB_DEVICE_ID_NANO_RECEIVER && 
+                     info.product != USB_DEVICE_ID_NANO_RECEIVER_ALT && 
                      info.product != USB_DEVICE_ID_UNIFYING_RECEIVER_2)) { 
                         errno = EPERM; 
                         perror("The given device is not a Logitech " 
